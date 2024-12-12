@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarot Online</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tarot Online</h1>
+      <p>Selecciona 9 cartas para revelar tu destino.</p>
+      <div id="counter">Cartas restantes: 9</div>
+    </header>
+    <main>
+      <div class="deck" id="deck"></div>
+      <button class="revelar" id="reveal" disabled>Revelar Significados</button>
+      <div class="results">
+        <h2>Significados de las Cartas</h2>
+        <ul id="meanings"></ul>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
